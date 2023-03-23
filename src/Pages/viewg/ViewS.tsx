@@ -6,7 +6,7 @@ import Padrao from "../../componentes/Padrao";
 import "./ViewG.css";
 
 function ViewS() {
-  const [mangaNaruto, setMangaSailorMoon] = useState([]);
+  const [, setMangaSailorMoon] = useState([]);
 
   useEffect(() => {
     fetch("https://kitsu.io/api/edge/manga/?page[limit]=1&page[offset]=240}")
@@ -20,9 +20,9 @@ function ViewS() {
         <div className="descrition">
           <h1>Sailor Moon</h1>
           <ul>
-            <h4>Tags:⠀⠀</h4><li>⠀Shojo</li><h5>⠀⠀⠀</h5><li>⠀comédia</li>
+            <li><h4>⠀⠀Tags:⠀</h4></li><li>⠀Shojo</li><li id="invisible"></li><li>⠀comédia</li>
           </ul>
-          <img src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
+          <img alt="capa do manga" src="https://media.kitsu.io/manga/241/poster_image/medium-70647553c5862dd0483bd16f40787bf5.jpeg"></img>
           <p> Tsukino Usagi is 14 years old and in her second year of middle school. She's a bit of a crybaby and klutzy.
             However, she can transform into a warrior of justice, Sailormoon! An eternal classic that should be read by all. </p>
         </div>

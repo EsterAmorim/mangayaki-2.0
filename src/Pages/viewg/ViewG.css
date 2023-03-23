@@ -46,6 +46,13 @@ color: #8472C6;
     border-radius: 25px;
 }
 
+#invisible{
+    width: 1%;
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+}
+
 .descrition img {
     width: 200px;
     height: 309px;
@@ -87,7 +94,7 @@ color: #8472C6;
 
 .captitulo {
     margin-top: 10%;
-    position: sticky;
+    position: static;
     margin-bottom: -8%;
 }
 

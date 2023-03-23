@@ -91,45 +91,45 @@ function UserPage() {
             </div>
             <div className={menulogout_class}>
                 <ul className="nav-stylelogout">
-                    <li><img src={homeicon} alt='homeicon' className="homeiconlogout"></img><a href="/userhome">Inicío</a></li>
-                    <li><img src={topicon} alt='topicon' className="topiconlogout"></img><a href="/top">Top</a></li>
+                    <li><img src={homeicon} alt='home icon' className="homeiconlogout"></img><a href="/userhome">Inicío</a></li>
+                    <li><img src={topicon} alt='top icon' className="topiconlogout"></img><a href="/top">Top</a></li>
                 </ul>
             </div>
 
             <div className={userMenu_class}>
                 <ul className="nav-styleusermenu">
-                    <li><img src={perfilicon} alt='perfilicon' className="perfilicon"></img><a href="#">Perfil</a></li>
-                    <li><img src={favicon} alt='favicon' className="favicon "></img><a href="#">Favoritos</a></li>
-                    <li><img src={conficon} alt='conficon' className="conficon"></img><a href="#">Configurações</a></li>
-                    <li><img src={logouticon} alt='logouticon' className="logouticon"></img><a href="./login">Logout</a></li>
+                    <li><img src={perfilicon} alt='perfil icon' className="perfilicon"></img><a href="##">Perfil</a></li>
+                    <li><img src={favicon} alt='favorito icon' className="favicon "></img><a href="##">Favoritos</a></li>
+                    <li><img src={conficon} alt='configur icon' className="conficon"></img><a href="##">Configurações</a></li>
+                    <li><img src={logouticon} alt='logout icon' className="logouticon"></img><a href="./login">Logout</a></li>
                 </ul>
             </div>
             <div className="homeU">
                 <div className='fav'>
                     <h2>Favoritos</h2>
                     <ul>
-                        <li><img src={manga1} alt='manga'></img></li>
-                        <li><img src={manga2} alt='manga'></img></li>
-                        <li><img src={manga3} alt='manga'></img></li>
-                        <li><img src={manga4} alt='manga'></img></li>
-                        <li><img src={manga5} alt='manga'></img></li>
+                        <li><img src={manga1} alt='capa do manga'></img></li>
+                        <li><img src={manga2} alt='capa do manga'></img></li>
+                        <li><img src={manga3} alt='capa do manga'></img></li>
+                        <li><img src={manga4} alt='capa do manga'></img></li>
+                        <li><img src={manga5} alt='capa do manga'></img></li>
                     </ul>
                 </div>
                 <div className='sugest'>
                     <h2>Sugestões Para Você</h2>
                     <ul>
-                        <li><img src={manga1} alt='manga'></img></li>
-                        <li><img src={manga2} alt='manga'></img></li>
-                        <li><img src={manga3} alt='manga'></img></li>
-                        <li><img src={manga4} alt='manga'></img></li>
-                        <li><img src={manga5} alt='manga'></img></li>
+                        <li><img src={manga1} alt='capa do manga'></img></li>
+                        <li><img src={manga2} alt='capa do manga'></img></li>
+                        <li><img src={manga3} alt='capa do manga'></img></li>
+                        <li><img src={manga4} alt='capa do manga'></img></li>
+                        <li><img src={manga5} alt='capa do manga'></img></li>
                     </ul>
                     <ul>
-                        <li><img src={manga6} alt='manga'></img></li>
-                        <li><img src={manga7} alt='manga'></img></li>
-                        <li><img src={manga8} alt='manga'></img></li>
-                        <li><img src={manga9} alt='manga'></img></li>
-                        <li><img src={manga10} alt='manga'></img></li>
+                        <li><img src={manga6} alt='capa do manga'></img></li>
+                        <li><img src={manga7} alt='capa do manga'></img></li>
+                        <li><img src={manga8} alt='capa do manga'></img></li>
+                        <li><img src={manga9} alt='capa do manga'></img></li>
+                        <li><img src={manga10} alt='capa do manga'></img></li>
                     </ul>
                 </div>
             </div>

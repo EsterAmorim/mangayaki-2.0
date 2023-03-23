@@ -4,7 +4,7 @@ import Padrao from "../../componentes/Padrao";
 import "./ViewG.css";
 
 function ViewG() {
-  const [mangaNaruto, setMangaNaruto] = useState([]);
+  const [,setMangaNaruto] = useState([]);
 
   useEffect(() => {
     fetch("https://kitsu.io/api/edge/manga/?page[limit]=1&page[offset]=34")
@@ -18,12 +18,12 @@ function ViewG() {
         <div className="descrition">
           <h1>Naruto</h1>
           <ul>
-            <h4>Tags:⠀⠀</h4>
-            <li>⠀shounen</li>
-            <h5>⠀⠀⠀</h5>
+            <li><h4>Tags:⠀⠀</h4></li>
+            <li>shounen</li>
+            <li id="invisible"></li>
             <li>⠀comédia</li>
           </ul>
-          <img src="https://media.kitsu.io/manga/poster_images/35/original.png"></img>
+          <img alt="capa do manga" src="https://media.kitsu.io/manga/poster_images/35/original.png"></img>
           <p>Before Naruto's birth, a great demon fox had attacked the Hidden Leaf Village. 
             A man known as the 4th Hokage sealed the demon inside the newly born Naruto, causing him to unknowingly grow up detested by his fellow villagers.
             Despite his lack of talent in many areas of ninjutsu, Naruto strives for only one goal: to gain the title of Hokage, the strongest ninja in his village.</p>

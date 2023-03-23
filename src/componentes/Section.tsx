@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { textSpanContainsPosition } from "typescript";
 import { useNavigate } from 'react-router-dom';
 import "./Section.css";
 
